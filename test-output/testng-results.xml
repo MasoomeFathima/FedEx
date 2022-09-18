@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-18T14:05:49 CEST" name="Suite" finished-at="2022-09-18T14:07:37 CEST" duration-ms="107276">
+    <groups>
+    </groups>
+    <test started-at="2022-09-18T14:05:49 CEST" name="Test1" finished-at="2022-09-18T14:06:08 CEST" duration-ms="18377">
+      <class name="com.fedex.tests.ContactUsTest">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.fedex.tests.ContactUsTest@78641d23]" started-at="2022-09-18T14:05:49 CEST" name="startApplication" finished-at="2022-09-18T14:05:55 CEST" duration-ms="5537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="ContactUs()[pri:0, instance:com.fedex.tests.ContactUsTest@78641d23]" started-at="2022-09-18T14:05:55 CEST" name="ContactUs" finished-at="2022-09-18T14:06:07 CEST" duration-ms="12311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ContactUs -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.ContactUsTest@78641d23]" started-at="2022-09-18T14:06:07 CEST" name="tearDown" finished-at="2022-09-18T14:06:08 CEST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.ContactUsTest@78641d23]" started-at="2022-09-18T14:06:08 CEST" name="tearDown" finished-at="2022-09-18T14:06:08 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fedex.tests.ContactUsTest -->
+    </test> <!-- Test1 -->
+    <test started-at="2022-09-18T14:06:08 CEST" name="Test2" finished-at="2022-09-18T14:06:31 CEST" duration-ms="23230">
+      <class name="com.fedex.tests.FAQsTest">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.fedex.tests.FAQsTest@5a755cc1]" started-at="2022-09-18T14:06:08 CEST" name="startApplication" finished-at="2022-09-18T14:06:13 CEST" duration-ms="5072" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="FrequentlyAskedQuestions()[pri:0, instance:com.fedex.tests.FAQsTest@5a755cc1]" started-at="2022-09-18T14:06:13 CEST" name="FrequentlyAskedQuestions" finished-at="2022-09-18T14:06:31 CEST" duration-ms="17731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FrequentlyAskedQuestions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.FAQsTest@5a755cc1]" started-at="2022-09-18T14:06:31 CEST" name="tearDown" finished-at="2022-09-18T14:06:31 CEST" duration-ms="421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.FAQsTest@5a755cc1]" started-at="2022-09-18T14:06:31 CEST" name="tearDown" finished-at="2022-09-18T14:06:31 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fedex.tests.FAQsTest -->
+    </test> <!-- Test2 -->
+    <test started-at="2022-09-18T14:06:31 CEST" name="Test3" finished-at="2022-09-18T14:06:44 CEST" duration-ms="12331">
+      <class name="com.fedex.loginTests.LoginTest">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.fedex.loginTests.LoginTest@2c07545f]" started-at="2022-09-18T14:06:31 CEST" name="startApplication" finished-at="2022-09-18T14:06:35 CEST" duration-ms="3869" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="fedexLogin()[pri:0, instance:com.fedex.loginTests.LoginTest@2c07545f]" started-at="2022-09-18T14:06:35 CEST" name="fedexLogin" finished-at="2022-09-18T14:06:44 CEST" duration-ms="8457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fedexLogin -->
+      </class> <!-- com.fedex.loginTests.LoginTest -->
+    </test> <!-- Test3 -->
+    <test started-at="2022-09-18T14:06:44 CEST" name="Test4" finished-at="2022-09-18T14:07:18 CEST" duration-ms="34225">
+      <class name="com.fedex.tests.Schedule_a_pickupTest">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.fedex.tests.Schedule_a_pickupTest@36328d33]" started-at="2022-09-18T14:06:44 CEST" name="startApplication" finished-at="2022-09-18T14:06:49 CEST" duration-ms="4786" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="schedulePickup()[pri:0, instance:com.fedex.tests.Schedule_a_pickupTest@36328d33]" started-at="2022-09-18T14:06:49 CEST" name="schedulePickup" finished-at="2022-09-18T14:07:18 CEST" duration-ms="29120" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- schedulePickup -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.Schedule_a_pickupTest@36328d33]" started-at="2022-09-18T14:07:18 CEST" name="tearDown" finished-at="2022-09-18T14:07:18 CEST" duration-ms="314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.Schedule_a_pickupTest@36328d33]" started-at="2022-09-18T14:07:18 CEST" name="tearDown" finished-at="2022-09-18T14:07:18 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fedex.tests.Schedule_a_pickupTest -->
+    </test> <!-- Test4 -->
+    <test started-at="2022-09-18T14:07:18 CEST" name="Test5" finished-at="2022-09-18T14:07:37 CEST" duration-ms="18551">
+      <class name="com.fedex.tests.searchTrackingNumberTest">
+        <test-method is-config="true" signature="startApplication()[pri:0, instance:com.fedex.tests.searchTrackingNumberTest@49ff7d8c]" started-at="2022-09-18T14:07:18 CEST" name="startApplication" finished-at="2022-09-18T14:07:23 CEST" duration-ms="4918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method signature="searchTrackingNumber()[pri:0, instance:com.fedex.tests.searchTrackingNumberTest@49ff7d8c]" started-at="2022-09-18T14:07:23 CEST" name="searchTrackingNumber" finished-at="2022-09-18T14:07:36 CEST" duration-ms="13367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTrackingNumber -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.searchTrackingNumberTest@49ff7d8c]" started-at="2022-09-18T14:07:36 CEST" name="tearDown" finished-at="2022-09-18T14:07:37 CEST" duration-ms="260" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.fedex.tests.searchTrackingNumberTest@49ff7d8c]" started-at="2022-09-18T14:07:37 CEST" name="tearDown" finished-at="2022-09-18T14:07:37 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.fedex.tests.searchTrackingNumberTest -->
+    </test> <!-- Test5 -->
+  </suite> <!-- Suite -->
+</testng-results>
